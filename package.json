@@ -1,0 +1,28 @@
+{
+  "name": "rooms-backend",
+  "version": "1.0.0",
+  "description": "Room Management Admin Panel - Backend API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^4.6.0",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^9.1.0",
+    "pdfkit": "^0.14.0",
+    "twilio": "^6.1.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
